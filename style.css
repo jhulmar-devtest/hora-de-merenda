@@ -19,31 +19,32 @@ main {
 }
 
 body {
-  background-color: #f5f3e7;
+  background-color: #f2f4f3;
 }
 
 .home {
-  background-color: #3b2216;
-  color: #f5f3e7;
+  background-color: #411d13;
+  color: #f2f4f3;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3b2216;
+  background-color: #411d13;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  padding: 16px 100px;
+  height: 100px;
+  padding: 0px 100px;
 }
 
 .logo {
   font-family: "Satisfy", cursive;
   font-size: 40px;
   text-decoration: none;
-  color: #f5f3e7;
+  color: #f2f4f3;
 }
 
 .navMenu {
@@ -68,16 +69,16 @@ header {
   font-size: 22px;
   font-weight: 500;
   text-decoration: none;
-  color: #f5f3e7;
+  color: #f2f4f3;
   transition: all 0.3s ease 0s;
 }
 
 .navLinks:hover {
-  color: #ffc300;
+  color: #ffb700;
 }
 
 .navLinks.active {
-  color: #ffc300;
+  color: #ffb700;
 }
 
 .hamburger {
@@ -92,7 +93,7 @@ header {
   margin: 4px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #f5f3e7;
+  background-color: #f2f4f3;
 }
 
 /* 
@@ -121,12 +122,12 @@ header {
 .title {
   font-family: "Satisfy", cursive;
   font-size: 56px;
-  color: #ffc300;
+  color: #ffb700;
 }
 
 .tagline {
   font-size: 28px;
-  color: #f5f3e7;
+  color: #f2f4f3;
   width: 600px;
 }
 
@@ -140,10 +141,10 @@ header {
 .menuBtn,
 .contactBtn {
   text-decoration: none;
-  color: #3b2216;
-  background-color: #ffc300;
+  color: #411d13;
+  background-color: #ffb700;
   padding: 10px 30px;
-  border: #ffc300 solid 2px;
+  border: #ffb700 solid 2px;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
@@ -158,9 +159,9 @@ header {
 
 .menuBtn:hover,
 .contactBtn:hover {
-  background-color: #3b2216;
-  color: #f5f3e7;
-  border: #f5f3e7 solid 2px;
+  background-color: #411d13;
+  color: #f2f4f3;
+  border: #f2f4f3 solid 2px;
 }
 
 .imgCtn img {
@@ -191,7 +192,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 700;
-  color: #595959;
+  color: #0a0908;
 }
 
 /* 
@@ -218,7 +219,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 700;
-  color: #595959;
+  color: #0a0908;
 }
 
 /* 
@@ -245,7 +246,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 700;
-  color: #595959;
+  color: #0a0908;
 }
 
 /*
@@ -360,12 +361,12 @@ header {
   .contactBtn {
     font-size: 18px;
     padding: 8px 26px;
-    border: #ffc300 solid 1px;
+    border: #ffb700 solid 1px;
   }
 
   .menuBtn:hover,
   .contactBtn:hover {
-    border: #f5f3e7 solid 1px;
+    border: #f2f4f3 solid 1px;
   }
 
   .menuBtn {
@@ -413,11 +414,11 @@ header {
   }
 
   .hamburger:hover .bar {
-    background-color: #ffc300;
+    background-color: #ffb700;
   }
 
   .hamburger.active .hamburger:hover .bar {
-    background-color: #ffc300;
+    background-color: #ffb700;
   }
 
   .navUl {
@@ -426,7 +427,7 @@ header {
     top: 62px;
     gap: 0;
     flex-direction: column;
-    background-color: #3b2216;
+    background-color: #411d13;
     border-radius: 0 0 0 10px;
     text-align: center;
     transition: 0.3s;
